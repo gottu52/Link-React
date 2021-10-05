@@ -17,26 +17,6 @@ export default function App() {
         <br />
         <Link to="/page2">Page2</Link>
       </div>
-      <Switch>
-        <Route exact path="/" render={() => <Home />} />
-        <Route
-          path="/page1"
-          render={() => (
-            <Switch>
-              <Route exact path="/page1">
-                <Page1 />
-              </Route>
-              <Route exact path="/page1a">
-                <Page1a />
-              </Route>
-              <Route exact path="/page1b">
-                <Page1b />
-              </Route>
-            </Switch>
-          )}
-        />
-        <Route path="/page2" render={() => <Page2 />} />
-      </Switch>
     </BrowserRouter>
   );
 }
