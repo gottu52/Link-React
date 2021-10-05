@@ -1,5 +1,5 @@
 import { Page1 } from "../Page1";
-import { Page1b } from "../page1b";
+import { Page1b } from "../Page1b";
 
 export const page1route = [
   {

@@ -1,6 +1,7 @@
-import { Children } from "react";
 import { Switch, Route } from "react-router-dom";
 import { page1route } from "./Page1Route";
+import { Home } from "../Home";
+import { Page2 } from "../Page2";
 
 export const Router = (props) => {
   return (
