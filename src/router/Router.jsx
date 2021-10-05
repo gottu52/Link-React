@@ -17,7 +17,7 @@ export const Router = (props) => {
                 exact={route.exact}
                 path={`${url}${route.path}`}
               >
-                {route.Children}
+                {route.children}
               </Route>
             ))}
           </Switch>
